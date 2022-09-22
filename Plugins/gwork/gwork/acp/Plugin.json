@@ -1,0 +1,9 @@
+{
+	"PluginName": "Szene-Shop Admin Panel",
+	"Package": "gwork.gwork.acp",
+	"Version": "1.0.0",
+	"Author": "gwork",
+	"RequiredPlugins": [
+		"gwork.gwork.shop"
+	]
+}

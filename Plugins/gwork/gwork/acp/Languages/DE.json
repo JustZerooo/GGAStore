@@ -1,0 +1,356 @@
+{
+	"Language": "Deutsch",
+	"Optional": "Optional",
+	"Header": {
+		"Title": "Admin Panel",
+		"UserPanel": {
+			"Menu": {
+				"Settings": "Einstellungen",
+				"Logout": "Ausloggen"
+			}
+		},
+		"OpenHomepage": "Seite öffnen"
+	},
+	"Menu": {
+		"Catalog": {
+			"Name": "Katalog",
+			"Categories": {
+				"Name": "Kategorien"
+			},
+			"Products": {
+				"Name": "Produkte"
+			}
+		},
+		"System": {
+			"Name": "System",
+			"Settings": {
+				"Name": "Einstellungen"
+			},
+			"Plugins": {
+				"Name": "Erweiterungen"
+			}
+		},
+		"Users": {
+			"Name": "Benutzer",
+			"Tickets": {
+				"Name": "Tickets"
+			},
+			"Coupons": {
+				"Name": "Gutscheine"
+			}
+		}
+	},
+	"Dashboard": {
+		"PageName": "Übersicht",
+		"Welcome": "Willkommen, %username%.",
+		"InfoBlocks": {
+			"Users": {
+				"Name": "Registrierte Nutzer"
+			},
+			"BitcoinsBalance": {
+				"Name": "Bitcoins Kontostand"
+			},
+			"NewsletterAbos": {
+				"Name": "Newsletter Abonennten"
+			},
+			"Plugins": {
+				"Name": "Installierte Erweiterungen"
+			},
+			"Time": {
+				"Name": "Uhr"
+			},
+			"Language": {
+				"Name": "Standardsprache"
+			}
+		},
+		"Note": {
+			"Title": "Notiz schreiben",
+			"Note": "Notiz",
+			"Timestamp": "Zeitstempel",
+			"Message": "Notiz schreiben...",
+			"Submit": "Hinzufügen"
+		},
+		"SendNewsletter": {
+			"Title": "Jabber Newsletter senden",
+			"Message": "Nachricht",
+			"Submit": "Senden",
+			"Error": "Nachricht konnte nicht gesendet werden.",
+			"Success": "Nachricht wurde an %count% Nutzer gesendet."
+		},
+		"SendBTC": {
+			"Title": "Bitcoins senden",
+			"ToAddress": "Empfänger Adresse",
+			"Amount": "Betrag in BTC",
+			"Fees": "Transaktionsgebühr per KB",
+			"Submit": "Senden",
+			"ErrorFee": "Transaktionsgebühr ist ungültig (in BTC angeben).",
+			"ErrorTxID": "Fehler beim Senden der Bitcoins.",
+			"Success": "Bitcoins wurden gesendet. <a href=\"%txid%\" target=\"_blockchain\">Transaktion ansehen</a>"
+		}
+	},
+	"Users": {
+		"Users": {
+			"PageName": "Benutzer"
+		},
+		"Coupons": {
+			"PageName": "Gutscheine",
+
+			"List": {
+				"PageName": "Gutscheine",
+				"Add": "Hinzufügen",
+				"Menu": {
+					"Choose": "Bitte wählen",
+					"Delete": "Makierte löschen",
+					"Submit": "Bestätigen"
+				},
+				"Table": {
+					"Code": "Code",
+					"Value": "Wert",
+					"Type": "Typ",
+					"Used": "Bereits eingelöst"
+				}
+			},
+			"Edit": {
+				"Submit": "Speichern",
+				"Title": "Bearbeiten",
+				"Code": "Code",
+				"Balance": "balance (Guthaben)",
+				"Value": "Wert",
+				"Type": "Typ",
+				"MaxUsable": "Maximal einlösbar",
+				"Used": "Bereits eingelöst",
+				"Logs": {
+					"Used": "Bereits eingelöst",
+					"User": "Benutzer",
+					"Timestamp": "Zeitstempel"
+				}
+			},
+			"Add": {
+				"Submit": "Hinzufügen",
+				"Title": "Hinzufügen",
+				"Code": "Code",
+				"Balance": "balance (Guthaben)",
+				"Value": "Wert",
+				"Type": "Typ",
+				"MaxUsable": "Maximal einlösbar",
+				"Used": "Bereits eingelöst"
+			}
+		},
+		"Tickets": {
+			"PageName": "Tickets",
+
+			"Closed": "Geschlossen",
+			"Completed": "Abgeschlossen",
+			"Waiting": "Wartet auf Antwort",
+			"Answered": "Beantwortet",
+
+			"List": {
+				"PageName": "Tickets",
+				"Menu": {
+					"Choose": "Bitte wählen",
+					"Delete": "Makierte löschen",
+					"Submit": "Bestätigen"
+				},
+				"Table": {
+					"Title": "Titel",
+					"User": "Benutzer",
+					"Status": "Status",
+					"Timestamp": "Erstellt am",
+					"Unknown": "Unbekannt"
+				}
+			},
+			"Show": {
+				"JabberSubject": "Antwort auf dein Ticket (ID: #%id%): ",
+				"Supporter": "Supporter",
+				"User": "Benutzer",
+				"Timestamp": "Zeitstempel",
+				"Message": "Nachricht",
+				"Text": "Text",
+				"Back": "Zurück",
+				"Placeholder": "Nachricht eingeben...",
+				"Answer": "Antworten",
+				"Close": "Ticket schließen",
+				"Open": "Ticket freigeben",
+				"Complete": "Ticket abschließen"
+			}
+		}
+	},
+	"System": {
+		"Settings": {
+			"Activated": "Aktiviert",
+			"Deactivated": "Deaktiviert",
+			"PageName": "Einstellungen",
+			"SiteName": "Seiten-Name",
+			"Maintenance": "Wartungsmodus",
+			"InfoBoxTitle": "Infobox-Titel",
+			"InfoBoxText": "Infobox-Text",
+			"BitcoinHost": "Bitcoin-Core JSON RPC IP Adresse",
+			"BitcoinPort": "Bitcoin-Core JSON RPC Port",
+			"BitcoinUsername": "Bitcoin-Core JSON RPC Benutzername",
+			"BitcoinPassword": "Bitcoin-Core JSON RPC Passwort",
+			"RecaptchaPrivateKey": "Recaptcha privater Schlüssel",
+			"RecaptchaSiteKey": "Recaptcha öffentlicher Schlüssel",
+			"JabberHost": "Jabber Host",
+			"JabberPort": "Jabber Port",
+			"JabberUsername": "Jabber Benutzername",
+			"JabberPassword": "Jabber Passwort",
+			"JabberID": "Jabber ID",
+			"HomepageNews": "Startseite als Neuigkeiten verwenden?",
+			"Currency": "Währung",
+			"Language": "Standard-Sprache",
+			"Error": "(Einige) Änderungen konnten nicht übernommen werden.",
+			"Success": "Änderungen wurden erfolgreich übernommen.",
+			"Save": "Speichern"
+		},
+		"Plugins": {
+			"List": {
+				"PageName": "Erweiterungen",
+				"Menu": {
+					"Choose": "Bitte wählen",
+					"Delete": "Makierte löschen",
+					"Disable": "Deaktivieren",
+					"Enable": "Aktivieren",
+					"Submit": "Bestätigen"
+				},
+				"Table": {
+					"Name": "Name",
+					"Version": "Version",
+					"Package": "Paket",
+					"Author": "Autor"
+				},
+				"Add": "Hinzufügen"
+			}
+		}
+	},
+	"Catalog": {
+		"Categories": {
+			"List": {
+				"PageName": "Kategorien",
+				"Menu": {
+					"Choose": "Bitte wählen",
+					"Delete": "Makierte löschen",
+					"Submit": "Bestätigen"
+				},
+				"Table": {
+					"Name": "Name",
+					"Order": "Position"
+				},
+				"Add": "Hinzufügen"
+			},
+			"Edit": {
+				"PageName": "Kategorie bearbeiten",
+				"Name": "Name",
+				"Order": "Position",
+				"Delete": "Löschen",
+				"Save": "Speichern",
+				"Success": "Änderungen wurden erfolgreich übernommen.",
+				"Error": "Name der Kategorie muss mindestens 1 Zeichen lang sein."
+			},
+			"Add": {
+				"PageName": "Kategorie hinzufügen",
+				"Name": "Name",
+				"Order": "Position",
+				"Add": "Hinzufügen",
+				"Error": "Name der Kategorie muss mindestens 1 Zeichen lang sein."
+			}
+		},
+		"Products": {
+			"Items": {
+				"List": {
+					"PageName": "%productName%",
+					"Menu": {
+						"Choose": "Bitte wählen",
+						"Delete": "Makierte löschen",
+						"Submit": "Bestätigen"
+					},
+					"Table": {
+						"Content": "Inhalt"
+					},
+					"Add": "Hinzufügen",
+					"Back": "Zurück"
+				},
+				"Edit": {
+					"PageName": "Produkt Einzelheit bearbeiten",
+					"Content": "Inhalt",
+					"Delete": "Löschen",
+					"Save": "Speichern",
+					"Success": "Änderungen wurden erfolgreich übernommen.",
+					"Error": "Alle Felder sind erforderlich."
+				},
+				"Add": {
+					"PageName": "Produkt Einzelheit hinzufügen",
+					"Content": "Inhalt",
+					"Format1": "Einzelnen Eintrag hinzufügen",
+					"Format2": "Mehrere Einträge hinzufügen (Zeilenweise mit Trennzeichen)",
+					"Seperator": "Trennzeichen",
+					"Format3": "Mehrere Einträge hinzufügen (Zeile für Zeile ohne Trennzeichen)",
+					"Add": "Hinzufügen",
+					"Error": "Alle Felder sind erforderlich."
+				}
+			},
+			"List": {
+				"PageName": "Produkte",
+				"Menu": {
+					"Choose": "Bitte wählen",
+					"Delete": "Makierte löschen",
+					"Submit": "Bestätigen"
+				},
+				"Table": {
+					"Title": "Titel",
+					"Availability": "Verfügbarkeit",
+					"Price": "Preis",
+					"Unlimited": "Unendlich"
+				},
+				"Add": "Hinzufügen"
+			},
+			"Edit": {
+				"Choose": "Bitte wählen",
+				"ImageSelect": "Bild auswählen",
+				"PageName": "Produkt bearbeiten",
+				"Image": "Vorschaubild",
+				"InfoTag": "Tag",
+				"Title": "Titel",
+				"Price": "Preis (in Cent, ohne Komma)",
+				"IsUnlimited": "Ist unendlich verfügbar? (Nach Reload/Speichern kann der Content bearbeitet werden).",
+				"Category": "Kategorie",
+				"ShortDescription": "Kurzbeschreibung",
+				"Description": "Produkt-Beschreibung",
+				"Content": "Kauf-Inhalt",
+				"Delete": "Löschen",
+				"Save": "Speichern",
+				"Success": "Änderungen wurden erfolgreich übernommen.",
+				"Error": "Alle Felder sind erforderlich."
+			},
+			"Add": {
+				"Choose": "Bitte wählen",
+				"ImageSelect": "Bild auswählen",
+				"PageName": "Produkt hinzufügen",
+				"Image": "Vorschaubild",
+				"InfoTag": "Tag",
+				"Title": "Titel",
+				"Price": "Preis (in Cent, ohne Komma)",
+				"IsUnlimited": "Ist unendlich verfügbar? (Nach Reload/Speichern kann der Content bearbeitet werden).",
+				"Category": "Kategorie",
+				"ShortDescription": "Kurzbeschreibung",
+				"Description": "Produkt-Beschreibung",
+				"Add": "Hinzufügen",
+				"Error": "Alle Felder sind erforderlich."
+			}
+		}
+	},
+	"Login": {
+		"PageName": "Anmelden",
+		"Errors": {
+			"Captcha": "Ungültiges Captcha.",
+			"Credentials": "Benutzername und / oder Passwort falsch.",
+			"Permission": "Zugriff verweigert."
+		},
+		"Username": {
+			"Placeholder": "Benutzername"
+		},
+		"Password": {
+			"Placeholder": "Passwort"
+		},
+		"Button": "Anmelden"
+	}
+}

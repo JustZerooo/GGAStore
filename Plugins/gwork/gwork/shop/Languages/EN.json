@@ -1,0 +1,281 @@
+{
+	"Language": "English",
+	"Header": {
+		"Language": "Language",
+		"Or": "or",
+		"Login": "Sign in",
+		"Register": "Create account",
+		"Balance": "Balance",
+		"Rate": "BTC Rate",
+		"Search": {
+			"Placeholder": "Enter a search term...",
+			"Button": "Search"
+		},
+		"UserPanel": {
+			"MyAccount": "My account",
+			"MyTickets": "My tickets",
+			"MyHistories": "My histories",
+			"Deposit": "Deposit",
+			"BitcoinTransactions": "Bitcoin transactions",
+			"Logout": "Logout"
+		}
+	},
+	"Menu": {
+		"Homepage": "Homepage",
+		"News": "News",
+		"Categories": "Categories",
+		"FAQ": "FAQ",
+		"Tutorials": "Tutorials"
+	},
+	"Product": {
+		"PageName": "%product%",
+		"MoreInfos": "More Informations",
+		"Amount": "Amount: %amount%",
+		"SoldOut": "Sold out"
+	},
+	"Search": {
+		"PageName": "Search results",
+		"MoreInfos": "More Informations",
+		"Amount": "Amount: %amount%",
+		"SoldOut": "Sold out",
+		"NoResults": "No search results.",
+		"Results": "%amount% search results"
+	},
+	"Category": {
+		"PageName": "%category%",
+		"MoreInfos": "More Informations",
+		"Amount": "Amount: %amount%",
+		"SoldOut": "Sold out"
+	},
+	"Account": {
+		"Tickets": {
+			"PageName": "My tickets",
+			"Create": "Create",
+			"Title": "Title",
+			"Status": "Status",
+			"Show": "Show",
+			"Date": "Date",
+			"You": "You",
+			"Supporter": "Supporter",
+			"Answer": "Answer",
+			"Placeholder": "Type your message...",
+			"Errors": {
+				"Short": "The text is too short (at least 3 characters).",
+				"Long": "The text is too long (up to 500 characters).",
+				"Captcha": "Invalid captcha."
+			},
+
+			"Closed": "Closed",
+			"Completed": "Completed",
+			"Waiting": "Waiting for answer",
+			"Answered": "Answered",
+
+			"Add": {
+				"PageName": "Create ticket",
+				"Submit": "Create",
+				"Title": "Title",
+				"Text": "Text",
+
+				"Errors": {
+					"TitleShort": "The title is too short (at least 3 characters).",
+					"TitleLong": "The title is too long (up to 150 characters).",
+					"TextShort": "The text is too short (at least 3 characters).",
+					"TextLong": "The text is too long (up to 500 characters).",
+					"Captcha": "Invalid captcha."
+				}
+			},
+			
+			"JabberMessageAnswer": "%username% (EN) hat auf Ticket ID #%id% geantwortet: %message%\n--------------",
+			"JabberMessageNew": "Neues Ticket wurde erstellt!\nTicket ID #%id%\nVon: %username% (EN)\nTitel: %subject%\nMessage: %message%\n--------------"
+		},
+		"Settings": {
+			"PageName": "My account",
+			"Newsletter": {
+				"Title": "Newsletter",
+				"Placeholder": "Jabber",
+				"Text": "Do you wan't to get news per jabber?",
+				"Button": "Save",
+				"Success": "Newsletter settings has been changed successfully.",
+				"Errors": {
+					"Already": "Jabber is already registered.",
+					"Invalid": "Jabber is invalid."
+				}
+			},
+			"Mail": {
+				"Title": "Change E-mail address",
+				"Placeholder": "E-mail address",
+				"Button": "Save",
+				"Success": "E-mail address has been changed successfully.",
+				"Errors": {
+					"Already": "E-mail address is already registered.",
+					"Invalid": "Invalid e-mail address."
+				}
+			},
+			"Password": {
+				"Title": "Change password",
+				"Placeholder": {
+					"Current": "Current password",
+					"New": "New password",
+					"Confirm": "Confirm new password"
+				},
+				"Button": "Save",
+				"Success": "Password has been changed succesfully.",
+				"Errors": {
+					"Confirmation": "The new password was incorrectly repeated.",
+					"Short": "The new password is too short (minimum 6 characters).",
+					"Invalid": "Current password is not correct."
+				}
+			}
+		},
+		"BTC": {
+			"Transactions": {
+				"PageName": "Bitcoin Transactions",
+				"Info": "Only the last %amount% transactions are displayed.",
+				"NoTransactions": "You have not made any transactions yet.",
+				"OpenTX": "Show transaction",
+				"Status": {
+					"Pending": "Pending",
+					"Completed": "Confirmed"
+				}
+			}
+		},
+		"Histories": {
+			"PageName": "My histories",
+			"Info": "Only the last %amount% orders are displayed.",
+			"NoOrders": "You have not made any purchases yet.",
+			"Removed": "The product has been removed from the store, no product details can be shown.",
+			"Status": {
+				"Pending": "Pending",
+				"Completed": "Completed"
+			}
+		},
+		"Deposit": {
+			"PageName": "Deposit",
+			"Bitcoin": {
+				"OpenWallet": "Open in wallet",
+				"Button": "Pay with Bitcoin",
+				"Address": "All payments to the following address will be credited to your account:",
+				"ConfirmationsInfo": "Payment amount will be added automatically after %confirmations% transaction confirmation(s).",
+				"Info1": "Thank you for payment (payment #%id%). Awaiting transaction/payment confirmation.",
+				"Info2": "This invoice has not been paid yet.",
+				"Info3": "Thank you. Your order is in process.",
+				"Info4": "Thank you for order (order #%order%, payment #%id%). We will send soon."
+			},
+			"Coupon": {
+				"Title": "Redeem coupon code",
+				"Code": {
+					"Placeholder": "Coupon code"
+				},
+				"Button": "Redeem",
+				"ButtonCheck": "Check",
+				"Types": {
+					"Balance": "Credits"
+				},
+				"Success": "You have successfully redeemed the coupon code.",
+				"Info": "Coupon code is valid.<br /><br />Value: %value%<br />Type: %type%",
+				"Errors": {
+					"Invalid": "The coupon code is invalid.",
+					"Used": "The coupon code has already been redeemed.",
+					"Blocked": "You can not redeem coupons at this time.",
+					"AlreadyUsed": "You have already redeemed the coupon code."
+				}
+			}
+		}
+	},
+	"Register": {
+		"PageName": "Create account",
+		"Optional": "Optional",
+		"Username": {
+			"Placeholder": "Username"
+		},
+		"Mail": {
+			"Placeholder": "E-Mail address"
+		},
+		"Password": {
+			"Placeholder": "Password"
+		},
+		"PasswordConfirm": {
+			"Placeholder": "Password confirmation"
+		},
+		"Jabber": {
+			"Placeholder": "Jabber"
+		},
+		"Newsletter": {
+			"Text": "Do you wan't to get news per jabber?"
+		},
+		"Errors": {
+			"Captcha": "Invalid captcha.",
+			"AlreadyUsername": "Username is already registered.",
+			"AlreadyMail": "E-mail address is already registered.",
+			"PasswordShort": "Password is too short (minimum 6 characters).",
+			"UsernameInvalid": "Username is not allowed (a-Z, 0-9).",
+			"UsernameLong": "Username is too long (up to 20 characters).",
+			"UsernameShort": "Username is too short (minimum 3 characters).",
+			"MailInvalid": "E-mail address is invalid.",
+			"PasswordRepeat": "Password was incorrectly repeated.",
+			"JabberInvalid": "Jabber is invalid.",
+			"JabberExists": "Jabber is already registered."
+		},
+		"Button": "Create account"
+	},
+	"Buy": {
+		"PageName": "Purchase processing",
+		"Product": "Product",
+		"Amount": "Amount",
+		"Price": "Price",
+		"Total": "Total",
+		"Button": "Pay",
+		"Errors": {
+			"Money": "Your credits is not enough for the order."
+		}
+	},
+	"Login": {
+		"PageName": "Sign in",
+		"Errors": {
+			"Captcha": "Invalid captcha.",
+			"Credentials": "Invalid credentials."
+		},
+		"Username": {
+			"Placeholder": "Username"
+		},
+		"Password": {
+			"Placeholder": "Password"
+		},
+		"Button": "Sign in"
+	},
+	"Maintenance": {
+		"PageName": "Maintenance",
+		"Text": "We are offline at short notice. Check back later. https://fraudsters.to/index.php?thread/29716-gga-in-zwangspause/&postID=179334 "
+	},
+	"Error": {
+		"PageName": "Page not found",
+		"Text": "The page you are called does not seem to exist.",
+		"Button": "Back to homepage"
+	},
+	"Index": {
+		"PageName": "Homepage",
+		"LastProducts": "Newest products",
+
+		"MoreInfos": "More Informations",
+		"Amount": "Amount: %amount%",
+		"SoldOut": "Sold out"
+	},
+	"Tutorials": {
+		"PageName": "Tutorials",
+		"AccessInfo": "In order to read our tutorials you have to buy a rank which costs 10,00 EUR.",
+		"BuyInfo": "When you click on 'Buy' you will be charged the money from your credit balance.",
+		"BuyButton": "Buy",
+		"Error": "Your credit is not enough."
+	},
+	"News": {
+		"PageName": "News"
+	},
+	"FAQ": {
+		"PageName": "FAQ's"
+	},
+	"Footer": {
+		"PaymentMethods": "You can pay with the following <span class=\"marked\">payment methods</span>.",
+		"Copyright": "&copy; %year% <a href=\"%url%\" class=\"grey-link\" target=\"_copyright\">gwork</a>.",
+		"Version": "%pluginName% v%version%."
+	}
+}

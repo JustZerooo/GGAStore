@@ -1,0 +1,281 @@
+{
+	"Language": "Deutsch",
+	"Header": {
+		"Language": "Sprache",
+		"Or": "oder",
+		"Login": "Anmelden",
+		"Register": "Registrieren",
+		"Balance": "Guthaben",
+		"Rate": "BTC Kurs",
+		"Search": {
+			"Placeholder": "Suchbegriff eingeben...",
+			"Button": "Suchen"
+		},
+		"UserPanel": {
+			"MyAccount": "Mein Account",
+			"MyTickets": "Meine Tickets",
+			"MyHistories": "Meine Bestellungen",
+			"Deposit": "Guthaben aufladen",
+			"BitcoinTransactions": "Bitcoin Transaktionen",
+			"Logout": "Ausloggen"
+		}
+	},
+	"Menu": {
+		"Homepage": "Startseite",
+		"News": "Neuigkeiten",
+		"Categories": "Kategorien",
+		"FAQ": "FAQ",
+		"Tutorials": "Tutorials"
+	},
+	"Product": {
+		"PageName": "%product%",
+		"MoreInfos": "Mehr Informationen",
+		"Amount": "Anzahl: %amount%",
+		"SoldOut": "Ausverkauft"
+	},
+	"Search": {
+		"PageName": "Suchergebnisse",
+		"MoreInfos": "Mehr Informationen",
+		"Amount": "Anzahl: %amount%",
+		"SoldOut": "Ausverkauft",
+		"NoResults": "Keine Suchergebnisse.",
+		"Results": "%amount% Suchergebnisse"
+	},
+	"Category": {
+		"PageName": "%category%",
+		"MoreInfos": "Mehr Informationen",
+		"Amount": "Anzahl: %amount%",
+		"SoldOut": "Ausverkauft"
+	},
+	"Account": {
+		"Tickets": {
+			"PageName": "Meine Tickets",
+			"Create": "Erstellen",
+			"Title": "Titel",
+			"Status": "Status",
+			"Show": "Anzeigen",
+			"Date": "Datum",
+			"You": "Du",
+			"Supporter": "Supporter",
+			"Answer": "Antworten",
+			"Placeholder": "Tippe deine Nachricht...",
+			"Errors": {
+				"Short": "Der Text ist zu kurz (min. 3 Zeichen).",
+				"Long": "Der Text ist zu lang (max. 500 Zeichen).",
+				"Captcha": "Ungültiges Captcha."
+			},
+
+			"Closed": "Geschlossen",
+			"Completed": "Abgeschlossen",
+			"Waiting": "Wartet auf Antwort",
+			"Answered": "Beantwortet",
+
+			"Add": {
+				"PageName": "Ticket erstellen",
+				"Submit": "Erstellen",
+				"Title": "Titel",
+				"Text": "Text",
+
+				"Errors": {
+					"TitleShort": "Der Titel ist zu kurz (min. 3 Zeichen).",
+					"TitleLong": "Der Titel ist zu lang (max. 150 Zeichen).",
+					"TextShort": "Der Text ist zu kurz (min. 3 Zeichen).",
+					"TextLong": "Der Text ist zu lang (max. 500 Zeichen).",
+					"Captcha": "Ungültiges Captcha."
+				}
+			},
+			
+			"JabberMessageAnswer": "%username% (DE) hat auf Ticket ID #%id% geantwortet: %message%\n--------------",
+			"JabberMessageNew": "Neues Ticket wurde erstellt!\nTicket ID #%id%\nVon: %username% (DE)\nTitel: %subject%\nMessage: %message%\n--------------"
+		},
+		"Settings": {
+			"PageName": "Mein Account",
+			"Newsletter": {
+				"Title": "Newsletter",
+				"Placeholder": "Jabber",
+				"Text": "News per Jabber erhalten?",
+				"Button": "Speichern",
+				"Success": "Newsletter Einstellungen wurden erfolgreich geändert.",
+				"Errors": {
+					"Already": "Jabber ist bereits registriert.",
+					"Invalid": "Jabber ist ungültig."
+				}
+			},
+			"Mail": {
+				"Title": "E-Mail Adresse ändern",
+				"Placeholder": "E-Mail Adresse",
+				"Button": "Speichern",
+				"Success": "E-Mail Adresse wurde erfolgreich geändert.",
+				"Errors": {
+					"Already": "E-Mail Adresse ist bereits registriert.",
+					"Invalid": "Ungültige E-Mail Adresse."
+				}
+			},
+			"Password": {
+				"Title": "Passwort ändern",
+				"Placeholder": {
+					"Current": "Aktuelles Passwort",
+					"New": "Neues Passwort",
+					"Confirm": "Neues Passwort wiederholen"
+				},
+				"Button": "Speichern",
+				"Success": "Passwort wurde erfolgreich geändert.",
+				"Errors": {
+					"Confirmation": "Das neue Passwort wurde falsch wiederholt.",
+					"Short": "Das neue Passwort ist zu kurz (min. 6 Zeichen).",
+					"Invalid": "Aktuelles Passwort ist nicht korrekt."
+				}
+			}
+		},
+		"BTC": {
+			"Transactions": {
+				"PageName": "Bitcoin Transaktionen",
+				"Info": "Es werden nur die letzten %amount% Transaktionen angezeigt.",
+				"NoTransactions": "Du hast bisher keine Transaktionen getätigt.",
+				"OpenTX": "Transaktion anzeigen",
+				"Status": {
+					"Pending": "Wartend",
+					"Completed": "Bestätigt"
+				}
+			}
+		},
+		"Histories": {
+			"PageName": "Meine Bestellungen",
+			"Info": "Es werden nur die letzten %amount% Bestellungen angezeigt.",
+			"NoOrders": "Du hast bisher keine Einkäufe getätigt.",
+			"Removed": "Das Produkt wurde vom Shop entfernt, es können keine Produktdetails angezeigt werden.",
+			"Status": {
+				"Pending": "In Bearbeitung",
+				"Completed": "Abgeschlossen"
+			}
+		},
+		"Deposit": {
+			"PageName": "Guthaben aufladen",
+			"Bitcoin": {
+				"OpenWallet": "In Wallet öffnen",
+				"Button": "Mit Bitcoin einzahlen",
+				"Address": "Alle Zahlungen auf die folgende Adresse werden deinem Konto gutgeschrieben:",
+				"ConfirmationsInfo": "Der Zahlungsbetrag wird nach %confirmations% Transaktionsbestätigung(en) automatisch gutgeschrieben.",
+				"Info1": "Zahlung erhalten (#%id%). Es wird auf Bestätigung gewartet.",
+				"Info2": "Der Betrag wurde noch nicht bezahlt.",
+				"Info3": "Vielen Dank. Deine Bestellung läuft.",
+				"Info4": "Vielen Dank für die Bestellung (Bestellung: #%order%, Bezahlung: #%id%)."
+			},
+			"Coupon": {
+				"Title": "Gutscheincode einlösen",
+				"Code": {
+					"Placeholder": "Gutscheincode"
+				},
+				"Button": "Einlösen",
+				"ButtonCheck": "Prüfen",
+				"Types": {
+					"Balance": "Gutschrift"
+				},
+				"Success": "Du hast den Gutscheincode erfolgreich eingelöst.",
+				"Info": "Gutscheincode ist gültig.<br /><br />Wert: %value%<br />Art: %type%",
+				"Errors": {
+					"Invalid": "Der Gutscheincode ist ungültig.",
+					"Used": "Der Gutscheincode wurde bereits eingelöst.",
+					"Blocked": "Du kannst momentan keine Gutscheine einlösen.",
+					"AlreadyUsed": "Du hast den Gutscheincode bereits eingelöst."
+				}
+			}
+		}
+	},
+	"Register": {
+		"PageName": "Registrieren",
+		"Optional": "Optional",
+		"Username": {
+			"Placeholder": "Benutzername"
+		},
+		"Mail": {
+			"Placeholder": "E-Mail Adresse"
+		},
+		"Password": {
+			"Placeholder": "Passwort"
+		},
+		"PasswordConfirm": {
+			"Placeholder": "Passwort wiederholen"
+		},
+		"Jabber": {
+			"Placeholder": "Jabber"
+		},
+		"Newsletter": {
+			"Text": "News per Jabber erhalten?"
+		},
+		"Errors": {
+			"Captcha": "Ungültiges Captcha.",
+			"AlreadyUsername": "Benutzername ist bereits registriert.",
+			"AlreadyMail": "E-Mail Adresse ist bereits registriert.",
+			"PasswordShort": "Passwort ist zu kurz (min. 6 Zeichen).",
+			"UsernameInvalid": "Benutzername ist nicht zulässig (a-Z, 0-9).",
+			"UsernameLong": "Benutzername ist zu lang (max. 20 Zeichen).",
+			"UsernameShort": "Benutzername ist zu kurz (min. 3 Zeichen).",
+			"MailInvalid": "E-Mail Adresse ist ungültig.",
+			"PasswordRepeat": "Passwort wurde falsch wiederholt.",
+			"JabberInvalid": "Jabber ist ungültig.",
+			"JabberExists": "Jabber ist bereits registriert."
+		},
+		"Button": "Registrieren"
+	},
+	"Buy": {
+		"PageName": "Kaufabwicklung",
+		"Product": "Produkt",
+		"Amount": "Anzahl",
+		"Price": "Preis",
+		"Total": "Summe",
+		"Button": "Bezahlen",
+		"Errors": {
+			"Money": "Dein Guthaben reicht für die Bestellung nicht aus."
+		}
+	},
+	"Login": {
+		"PageName": "Anmelden",
+		"Errors": {
+			"Captcha": "Ungültiges Captcha.",
+			"Credentials": "Benutzername und / oder Passwort falsch."
+		},
+		"Username": {
+			"Placeholder": "Benutzername"
+		},
+		"Password": {
+			"Placeholder": "Passwort"
+		},
+		"Button": "Anmelden"
+	},
+	"Maintenance": {
+		"PageName": "Kleine Zwangspause",
+		"Text": "Wir sind kurzfristig offline. Schaue später noch einmal vorbei. https://fraudsters.to/index.php?thread/29716-gga-in-zwangspause "
+	},
+	"Error": {
+		"PageName": "Seite nicht gefunden",
+		"Text": "Die von dir aufgerufene Seite scheint nicht zu existieren.",
+		"Button": "Zur Startseite"
+	},
+	"Index": {
+		"PageName": "Startseite",
+		"LastProducts": "Neueste Produkte",
+
+		"MoreInfos": "Mehr Informationen",
+		"Amount": "Anzahl: %amount%",
+		"SoldOut": "Ausverkauft"
+	},
+	"Tutorials": {
+		"PageName": "Tutorials",
+		"AccessInfo": "Um unsere Tutorials lesen zu können, musst du dir einen Rank kaufen, welches einmalig 10,00 EUR kostet.",
+		"BuyInfo": "Bei einem Klick auf 'Kaufen' wird dir das Geld von deinem Guthaben verrechnet.",
+		"BuyButton": "Kaufen",
+		"Error": "Dein Guthaben reicht nicht aus."
+	},
+	"News": {
+		"PageName": "Neuigkeiten"
+	},
+	"FAQ": {
+		"PageName": "FAQ's"
+	},
+	"Footer": {
+		"PaymentMethods": "Du kannst bei uns mit den folgenden <span class=\"marked\">Zahlungsmethoden</span> bezahlen.",
+		"Copyright": "&copy; %year% <a href=\"%url%\" class=\"grey-link\" target=\"_copyright\">%site_name%</a>.",
+		"Version": "%pluginName% v%version%."
+	}
+}
